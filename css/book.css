@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Montserrat:500,600');
+ body {
+     min-width: 290px;
+     max-width: 980px;
+     margin: auto;
+     font-family: Comfortaa, cursive;
+}
+ header {
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     margin: 0%;
+}
+ header img {
+     width: 60%;
+     margin:1% 0 0.5% auto;
+}
+ header a {
+     text-decoration: none;
+     color: white;
+     background-color:#b30000;
+     border: 1px solid black;
+     border-radius: 0px 20px 20px 0px;
+     padding: 1.5%;
+     text-align: center;
+     text-decoration: none;
+     font-size: 0.7rem;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     font-family: 'Comfortaa', cursive;
+     margin: 1%;
+}
+ header a:hover {
+     background-color: black;
+     text-decoration: none;
+     color: white;
+}
+ form {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     background-image: url(../images/bookingpagebackground.jpg);
+     background-size: cover;
+     background-position: center;
+     min-height: 240px;
+     padding: 9%;
+     margin: 0.3% 0;
+}
+ form #dayselect{
+     background-color: white;
+     border: 1px solid black;
+     padding: 1%;
+}
+ form #timeselect{
+     background-color: white;
+     border: 1px solid black;
+     margin: 3% 14%;
+     padding: 1%;
+}
+ form #placeselect{
+     background-color: white;
+     border: 1px solid black;
+     margin: 3% 14%;
+     padding: 1%;
+}
+ form .nameinput{
+     background-color: white;
+     border: 1px solid black;
+     margin: 3% 14%;
+     padding: 1%;
+}
+ form .phoneinput{
+     background-color: white;
+     border: 1px solid black;
+     margin: 3% 14%;
+     padding: 1%;
+}
+ @media (min-width: 470px){
+     form #dayselect{
+         margin:2% 20% 
+    }
+     form #timeselect{
+         margin:2% 20% 
+    }
+     form #placeselect{
+         margin:2% 20% 
+    }
+     form .nameinput{
+         margin:2% 20% 
+    }
+     form .phoneinput{
+         margin:2% 20% 
+    }
+     form{
+         padding: 4%;
+    }
+}
+ @media (min-width: 700px){
+     form {
+         padding: 9%;
+    }
+     header img {
+         width: 50%;
+    }
+}
+ @media (min-width: 900px){
+     #footermenu li {
+         font-size: 1.5rem;
+    }
+     form {
+         padding: 11%;
+    }
+}
+ #footermenu{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     text-align: center;
+}
+ #footermenu ul {
+     margin: 0;
+     list-style-type: none;
+     padding: 1%;
+}
+ #footermenu li {
+     background-color: #ecd9c6;
+     font-size: 0.7rem;
+     font-family: 'Comfortaa', cursive;
+     border-bottom: 0.5px solid grey 
+}
+ #footermenu a {
+     text-decoration: none;
+     color: white;
+}
+    
